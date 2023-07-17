@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+#header-logo img {
+  width:90px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.home,
+.topicos,
+.contato {
+  color: aliceblue;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 100px 50px 130px;
+}
+
+.hero {
+  width: 920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.texto h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.texto p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: left;
+  align-self: flex-start;
+}
+
+button {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 8px 13px;
+  width: 110px;
+  margin-top: 10px;
+  align-self: flex-start;
+  border-style: none;
+}
+
+.img {
+  display: flex;
+  align-self: flex-end;
+}
+
+.img img {
+  width: 480px;
+  height: 220px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px 90px 20px;
+}
+
+.cards-container > h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  gap: 25px;
+}
+
+.cards img {
+  width: 190px;
+  height: 180px;
+  border-radius: 10px;
+  border: 1px solid #3b82f6;
+}
+
+.cards p {
+  text-align: center;
+  font-weight: 500;
+  color: gray;
+}
+
+.card1 {
+  width: 190px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.card2 {
+  width: 190px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.card3 {
+  width: 190px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.card4 {
+  width: 190px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.citacao-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.citacao {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 40px 130px;
+}
+
+.citacao #autor {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.call-to-action {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  height: 110px;
+  padding: 15px 100px;
+  gap: 100px;
+  color: #e5e7eb;
+}
+
+.call-to-action button {
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+  align-self: center;
+}
+
+footer {
+  height: 70px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+footer a {
+  color: #e5e7eb;
+  margin-left: 5px;
+}
